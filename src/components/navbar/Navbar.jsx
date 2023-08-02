@@ -40,7 +40,7 @@ const links = [
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <Link href="/" className={styles.logo} >Sousarg</Link>
+      <Link href="/" className={styles.logo} >sousarg</Link>
     <div  className={styles.links}>
       {links.map((link) =>(
       <Link className={styles.link} key={link.id} href={link.url}>{link.title}</Link>
