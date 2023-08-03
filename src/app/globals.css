@@ -21,7 +21,7 @@ a{
 max-width: 1366px;
 min-height: 100vh;
 margin:0 auto;
-background-color: chocolate;
+/* background-color: chocolate; */
 padding: 0 60px;
 display: flex;
 flex-direction: column;
