@@ -9,6 +9,7 @@
   margin: 20px 0px;
 }
 
+/* when you write diplay flex by default it is row direction and the gap will be between the children of the parent where the flex is */
 .items {
   display: flex;
   gap: 50px;
@@ -20,9 +21,10 @@
   width: 300px;
   height: 400px;
   position: relative;
-  background-size: cover !important;
+  background-size: cover !important; /* this to make the image in the background cover in the parent */
 }
 
+/* for the images when you write / it is like if you are exactly in the public folder */
 .item:nth-child(1) {
   background: url("/illustration.png");
 }
@@ -32,7 +34,7 @@
 .item:nth-child(3) {
   background: url("/apps.jpg");
 }
-
+/* we made the position absolute and the item position relative so each title will be absolute but inside his parent item */
 .title {
   position: absolute;
   right: 10px;
